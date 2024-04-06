@@ -268,4 +268,20 @@
    */
   new PureCounter();
 
+  document.getElementById('videoLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    var videoPopup = document.getElementById('videoPopup');
+    videoPopup.style.display = 'block';
+    var video = document.getElementById('popupVideo');
+    video.play();
+});
+
+document.getElementById('closeVideo').addEventListener('click', function() {
+    var video = document.getElementById('popupVideo');
+    video.pause(); // Pause the video
+    video.currentTime = 0; // Reset the video's current time to the beginning
+    document.getElementById('videoPopup').style.display = 'none';
+});
+
+
 })()

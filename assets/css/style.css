@@ -757,6 +757,10 @@ section {
   background-color: #0563bb;
 }
 
+.portfolio-info a:hover {
+  color: blue;
+}
+
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
@@ -1206,4 +1210,15 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+#videoPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
