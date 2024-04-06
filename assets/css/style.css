@@ -1222,3 +1222,9 @@ section {
   padding: 20px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
+
+#closeVideo {
+  cursor: pointer;
+  align-self: center; /* Ensure the close button is centered inside the flex container */
+  margin-bottom: 10px; /* Add some space between the close button and the video */
+}

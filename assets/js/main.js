@@ -268,6 +268,7 @@
    */
   new PureCounter();
 
+  
   document.getElementById('videoLink').addEventListener('click', function(event) {
     event.preventDefault();
     var videoPopup = document.getElementById('videoPopup');
@@ -282,6 +283,7 @@ document.getElementById('closeVideo').addEventListener('click', function() {
     video.currentTime = 0; // Reset the video's current time to the beginning
     document.getElementById('videoPopup').style.display = 'none';
 });
+
 
 
 })()
