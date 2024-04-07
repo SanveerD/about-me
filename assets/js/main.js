@@ -268,7 +268,10 @@
    */
   new PureCounter();
 
-  
+ 
+  /**
+   * Video Player
+   */ 
   document.getElementById('videoLink').addEventListener('click', function(event) {
     event.preventDefault();
     var videoPopup = document.getElementById('videoPopup');

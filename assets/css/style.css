@@ -616,7 +616,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
+  background: transparent;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1213,14 +1213,24 @@ section {
 }
 
 #videoPopup {
+  width: 80%; /* Adjust this value based on your preference */
+  max-width: 640px; /* Maximum width of the video */
   position: fixed;
-  top: 50%;
   left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   z-index: 1000;
   background-color: white;
   padding: 20px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#popupVideo {
+  width: 100%;
+  height: auto; /* This ensures the height is set automatically based on the aspect ratio */
 }
 
 #closeVideo {
