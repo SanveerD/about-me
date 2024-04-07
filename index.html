@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>My Portfolio - Index</title>
+  <title>Sanveer's Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -40,12 +40,10 @@
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About Me</span></a></li>
         <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <li><a href="#businesses" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>My Businesses</span></a></li>
+        <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-server"></i> <span>My Projects</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -296,81 +294,9 @@
       </div>
     </section><!-- End Resume Section -->
 
-    <!-- ======= Businesses Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>My Businesses</h2>
-          <p>A collection of pursuits I've taken to launch or have attempted</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/broommate_logo.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="index.html"> 
-                  <h4>BroomMate</h4> 
-                  <p>Residential Cleaning Services</p>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/startupwestern_logo.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="#" id="videoLink"> 
-                  <h4>Startup Western</h4>
-                  <p>Business Hackathon</p>
-              </a>
-
-            </div>
-          </div>
-          
-              <!-- Hidden video container -->
-              <div id="videoPopup" style="display: none;">
-                <span id="closeVideo" style="cursor: pointer;">&times; Close</span>
-                <video id="popupVideo" width="640" height="360" controls>
-                    <source src="assets/video/Startup Video Final.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-
-          <script src="script.js"></script>
-
-        </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/glasslabs_logo.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="index.html"> 
-                  <h4>Glass Labs</h4>
-                  <p>Transparent Health Supplments</p>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        
-
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
 
       <!-- ======= Projects Section ======= -->
-      <section id="portfolio" class="portfolio section-bg">
+      <section id="projects" class="portfolio section-bg">
         <div class="container" data-aos="fade-up">
   
           <div class="section-title">
@@ -380,14 +306,20 @@
   
           <div class="row">
             <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-game">Game</li>
+                <li data-filter=".filter-writing">Writing</li>
+                <li data-filter=".filter-data">Data</li>
+              </ul>
             </div>
           </div>
   
           <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
   
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-game">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/jalebi_cover.png" class="img-fluid" alt="">
+                <img src="assets/img/projects/jalebi_cover.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <a href="https://simmer.io/@SunnyDlight/jalebi-baby-the-video-game"> 
                     <h4>Jalebi Baby: The Game</h4>
@@ -397,9 +329,9 @@
             </div>
           </div>
   
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-writing">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Mcd_logo.png" class="img-fluid" alt="">
+              <img src="assets/img/projects/Mcd_logo.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <a href="https://medium.com/@sanveerdhanju/nutrition-economics-at-mcdonalds-763ed58f356f"> 
                   <h4>McDonalds Nutritional Economics</h4>
@@ -409,9 +341,9 @@
           </div>
         </div>
   
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-game">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/2048_logo.png" class="img-fluid" alt="">
+            <img src="assets/img/projects/2048_logo.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <a href="pages/2048.html"> 
                 <h4>Game in Excel</h4>
@@ -421,9 +353,9 @@
         </div>
       </div>
   
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-writing">
         <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/BMJ_logo.png" class="img-fluid" alt="">
+          <img src="assets/img/projects/BMJ_logo.png" class="img-fluid" alt="">
           <div class="portfolio-info">
             <a href="https://medium.com/@sanveerdhanju/rise-of-3d-printed-drugs-8fc5c21c36ae"> 
               <h4>3D Printed Drugs</h4>
@@ -433,9 +365,9 @@
       </div>
     </div>
   
-    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="col-lg-4 col-md-6 portfolio-item filter-data">
       <div class="portfolio-wrap">
-        <img src="assets/img/portfolio/kiva_logo.png" class="img-fluid" alt="">
+        <img src="assets/img/projects/kiva_logo.png" class="img-fluid" alt="">
         <div class="portfolio-info">
           <a href="pages/kiva_analysis.html"> 
             <h4>Data Visualization</h4>
@@ -445,9 +377,9 @@
     </div>
   </div>
 
-    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="col-lg-4 col-md-6 portfolio-item filter-data">
       <div class="portfolio-wrap">
-        <img src="assets/img/portfolio/AVP_Logo.png" class="img-fluid" alt="">
+        <img src="assets/img/projects/AVP_Logo.png" class="img-fluid" alt="">
         <div class="portfolio-info">
           <a href="pages/AVP Model.html"> 
             <h4>Image Classification Model</h4>
@@ -457,9 +389,9 @@
     </div>
   </div>
 
-    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="col-lg-4 col-md-6 portfolio-item filter-data">
       <div class="portfolio-wrap">
-        <img src="assets/img/portfolio/CNN.png" class="img-fluid" alt="">
+        <img src="assets/img/projects/CNN.png" class="img-fluid" alt="">
         <div class="portfolio-info">
           <a href="pages/cnn.html"> 
             <h4>MRI Image Classification</h4>
@@ -476,6 +408,78 @@
       </section><!-- End Portfolio Section -->
   
 
+    <!-- ======= Businesses Section ======= -->
+    <section id="businesses" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>My Businesses</h2>
+          <p>A collection of pursuits I've taken to launch or have attempted</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+                <img src="assets/img/projects/broommate_logo.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a href="index.html"> 
+                  <h4>BroomMate</h4> 
+                  <p>Residential Cleaning Services</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/projects/startupwestern_logo.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a href="#" id="videoLink"> 
+                  <h4>Startup Western</h4>
+                  <p>Business Hackathon</p>
+              </a>
+
+            </div>
+          </div>
+
+              <!-- Hidden video container -->
+              <div id="videoPopup" style="display: none;">
+                <span id="closeVideo" style="cursor: pointer;">&times; Close</span>
+                <video id="popupVideo" width="640" height="360" controls>
+                    <source src="assets/video/Startup Video Final.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+          <script src="script.js"></script>
+
+        </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/projects/glasslabs_logo.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a href="index.html"> 
+                  <h4>Glass Labs</h4>
+                  <p>Transparent Health Supplments</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        
+
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
 
   </main><!-- End #main -->
 
